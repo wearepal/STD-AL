@@ -1,0 +1,7 @@
+defaults:
+  - base
+
+name: setup3
+dist:
+  unlabelled: [[0.48, 0.02], [0.02, 0.48]]
+  test: [[0.25, 0.25], [0.25, 0.25]]

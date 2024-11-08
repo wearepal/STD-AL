@@ -1,0 +1,12 @@
+defaults:
+  - config_schema
+  - data: cmnist
+  - exp: base
+  - optim: Adam
+  - wandb: base
+  - strategy: Random
+  - lr_scheduler: base
+
+hydra:
+  run:
+    dir: .

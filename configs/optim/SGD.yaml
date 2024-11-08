@@ -1,0 +1,8 @@
+defaults:
+  - base
+  - /schema/optim: SGD
+
+momentum: 0
+weight_decay: 0
+dampening: 0
+nesterov: false

@@ -1,0 +1,7 @@
+defaults:
+  - base
+
+name: balanced
+dist:
+  unlabelled: [[0.25, 0.25], [0.25, 0.25]]
+  test: [[0.25, 0.25], [0.25, 0.25]]

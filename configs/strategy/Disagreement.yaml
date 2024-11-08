@@ -1,0 +1,5 @@
+defaults:
+  - /schema/strategy: Disagreement
+
+divergence: ReversedKL
+stochastic: false

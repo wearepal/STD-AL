@@ -1,0 +1,12 @@
+name: base
+num_epochs: 40
+n_to_label: 10
+num_steps: 100
+batch_size: 64
+initial: 100
+seed: 1234
+clamp_grad: null
+dist:
+  unlabelled: null
+  initial: null
+  test: null

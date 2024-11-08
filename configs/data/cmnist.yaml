@@ -1,0 +1,12 @@
+defaults:
+  - base
+  - /schema/data: cmnist
+
+digits: [0, 1]
+colours:
+  - R: 1
+    G: 0
+    B: 0
+  - R: 0
+    G: 0
+    B: 1

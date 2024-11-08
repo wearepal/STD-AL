@@ -1,0 +1,5 @@
+defaults:
+  - base
+  - /schema/lr_scheduler: ExponentialLR
+
+gamma: 0.98

@@ -1,0 +1,15 @@
+defaults:
+  - base
+  - /schema/data: synthetic
+
+mean: [[[-10, 2], [2, 2]], [[-2, -2], [10, -2]]] # [[mi, ma],[ma, mi]]
+train:
+  num_points: 60000
+  y: 0.5
+  s: null
+  alpha: 0.01
+test:
+  num_points: 10000
+  y: 0.5
+  s: 0.5
+  alpha: 0.01
